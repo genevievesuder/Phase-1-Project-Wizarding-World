@@ -19,7 +19,7 @@ const displayWizard = (wizardObj) => {
     wizImg.classList.add("toy-avatar")
     wizBlood.innerText = `Blood status: ${wizardObj.bloodstatus}`
     patronus.innerText = `Patronus: ${wizardObj.patronus}`
-    wand.innerText = wizardObj.wand.details;
+    wizardObj.wand.forEach(wandObj=>wand.innerText+=`Wand details:${wandObj.details}`)
     //append
     wizInfo.append(wizBlood, patronus)
     wizDiv.append(wizName, wizImg, wizInfo, wand)
@@ -27,7 +27,7 @@ const displayWizard = (wizardObj) => {
 }
 
 const fetchData = () => {
-    fetch("http://localhost:3000/wizarding-world")
+    fetch("http://localhost:3000/wizardingWorld")
     .then(response => response.json())
     .then(data => {
         console.log(data)
