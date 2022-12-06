@@ -8,10 +8,17 @@
     margin: 1rem 2rem;
     box-shadow: 3px 4px #e04b52
   }
-
-  .toy-avatar {
+  .card:hover {
+    transform: scale(1.2);
+}
+.toy-avatar {
     justify-self: center;
     height: 12rem;
     width: auto;
   }
   
+.greeting {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}

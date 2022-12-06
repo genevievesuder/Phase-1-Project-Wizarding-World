@@ -7,25 +7,19 @@
   </head>
   <body>
     <header>
-      <h1>Phase 1 Project</h1>
+      <h1 class="greeting">Hello</h1>
       <nav>
-        <ul id="random-ul">
-          <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-          </ul>
         </nav>
       </header>
       
       <main>
       <div class="details">
-        <h2 id="details">Some Details</h2>
-        <p>A paragraph</p>
-             <h3>An h3</h3>
-             <ul id="review-list">
-               <li>A list</li>
+             <h3 id="welcome">Welcome to the Wizarding Wide Web<br>
+            view characters below...
+            </h3>
+            
         </ul>
+        </div>
         <form id="form">
           <label for="form-label">Form Label</label>
           <br>
@@ -41,7 +35,55 @@
         </select>
       </div>
     </main>
+    
+    <div class="container">
+      <form class="add-wizard-form">
+        <h3>Create a Wizard</h3>
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter a wizard's name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter a wizard's image URL..."
+          class="input-text"
+        />        
+        <br />
+        <input
+        type="text"
+        name="patronus"
+        value=""
+        placeholder="Enter a wizard's patronus..."
+        class="input-text"
+        />
+        <br />
+        <input
+        type="text"
+        name="wand"
+        value=""
+        placeholder="Enter your wand materials..."
+        class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Create Wizard"
+          class="submit"
+        />
+      </form>
+    </div>
+    <p style="text-align:center">
+    <button id="new-wizard-btn">Add a new wizard</button>
+    </p>
     <div id="wiz-collection"></div>
+    
     <script defer type="text/javascript" src="index.js"></script>
   </body>
   </html>
