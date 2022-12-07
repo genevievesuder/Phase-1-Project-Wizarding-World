@@ -41,7 +41,6 @@ addBtn.addEventListener('click', () => {
 
 wizForm.addEventListener("submit", handleWizSubmit)
 
-//create the DOM elements that each toy card should have
 const wizCollection = document.querySelector("#wiz-collection");
 const form = document.querySelector("#form")
 const card = document.getElementsByClassName("card");
