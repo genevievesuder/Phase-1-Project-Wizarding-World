@@ -1,9 +1,3 @@
-//EVENTS
-// 1 CARD- HOVER
-// 2 IMAGE- CLICK
-// 3 FORM- SUBMIT
-
-
 let addWiz = false;
 const wizForm = document.querySelector(".add-wizard-form")
 const secretImg = document.querySelector("#dobby > img")
@@ -19,9 +13,10 @@ formOnload = () => {
 formOnload()
 
 
-    const addBtn = document.querySelector("#new-wizard-btn")
-    const wizFormContainer = document.querySelector(".container");
-    addBtn.addEventListener('click', () => {
+const addBtn = document.querySelector("#new-wizard-btn")
+const wizFormContainer = document.querySelector(".container");
+    
+addBtn.addEventListener('click', () => {
         //hide and seek w the form
         addWiz = !addWiz;
         if (addWiz) {
@@ -41,41 +36,16 @@ formOnload()
         wizObj.patronus = event.target.patronus.value;
         wizObj.wand = event.target.wand.value;
         displayWizard(wizObj)
-
-        //trying to fix empty below
-        
-//didnt work.
-// const fixEmpty = () => {
-//     if (wizObj = "")
-//         wizObj.remove()
-//     }
-//     fixEmpty()
-
-//didnt work either
-// function empty() {
-//     let noText;
-//     noText = wizObj.value;
-//     if (noText == "") {
-//         alert("Enter a Valid Roll Number");
-//         return false;
-//     };
-// }
-// empty()
         event.target.reset()
     }
 
-
-
-    wizForm.addEventListener("submit", handleWizSubmit)
+wizForm.addEventListener("submit", handleWizSubmit)
 
 //create the DOM elements that each toy card should have
 const wizCollection = document.querySelector("#wiz-collection");
 const form = document.querySelector("#form")
 const card = document.getElementsByClassName("card");
 const header = document.querySelector("body > header > h1")
-// const wizardFacts = document.querySelector("body > main > div > h3")
-
-
 
 
 const displayWizard = (wizardObj) => {
@@ -106,13 +76,10 @@ const displayWizard = (wizardObj) => {
     wizCollection.appendChild(wizDiv)
 }
 
-
-
 const onMouseOver = () => {
     alert("Dobby is now a free elf! Thank you so much for saving me!")
 }
-
-    
+   
     const dobbyClick = () => {
         const dobby = document.querySelector("#dobby")
         if (dobby.style.display === "none") {
@@ -141,7 +108,6 @@ const displayDobby = () => {
     image.addEventListener("click", dobbyClick)
 }
 
-
 displayDobby()
 
 const fetchData = () => {
@@ -153,8 +119,6 @@ const fetchData = () => {
     })
 }
 
-
 secretImg.addEventListener("mouseover", onMouseOver)
-
 
 fetchData()
