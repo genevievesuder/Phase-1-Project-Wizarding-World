@@ -3,67 +3,84 @@
     <meta charset="UTF-8" />
     <title>Wizarding World of Hogwarts</title>
     <link rel="icon" type="image/x-icon" href="https://files.softicons.com/download/tv-movie-icons/harry-potter-icons-by-artua.com/ico/home.ico">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" 
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=fire"/>
   </head>
-  <body>
+  <body style="background-color:rgb(53, 59, 57);">
     <header>
-      <h1 class="greeting">Hello</h1>
+      <br>
+      <h1 class="greeting">
+      <img src="images/dragon.png">
+      <br>
+      <p style="font-size: 30px;" class="main-welcome">
+      View some of the Wizarding World's most famous --or infamous-- witches and wizards below<br>
+      </p>
+      <p style="font-size: 20px; color:rgb(16, 37, 37); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+      <i>or click the button to create your own wizard!</i> <br>
+      </p>
+      <p style="font-size: 10px; color:rgb(60, 81, 74)">
+      P.s. please avoid those pesky house elves.
+      </p>
+      </h1>
+  
       <nav>
         </nav>
       </header>
-      
+      <!-- <img src = "https://www.universalbeijingresort.com/sites/default/files/active/harrypotter/hp-about-img.png"> -->
       <main>
-      <div class="details">
-             <h3 id="welcome">Welcome to the Wizarding Wide Web<br>
+      <!-- <div class="greeting">
+             <h3 id="welcome">to the Wizarding Wide Web<br>
             view characters below...
             </h3>
             
-        </ul>
-        </div>
-        <form id="form">
-          <label for="form-label">Form Label</label>
-          <br>
-          <textarea id="Text">Text Area</textarea>
-          <br>
-          <button type="submit">Button</button>
-        </form>
+        </ul> -->
+        <!-- </div>
+       
         <select id="select-box">
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
           <br>
         </select>
-      </div>
+      </div> -->
     </main>
     
     <div class="container">
       <form class="add-wizard-form">
         <h3>Create a Wizard</h3>
-        <input
+        <input class="input-boxes"
           type="text"
           name="name"
           value=""
-          placeholder="Enter a wizard's name..."
+          placeholder="Enter your wizard's name..."
           class="input-text"
         />
         <br />
-        <input
+        <input class="input-boxes"
+          type="text"
+          name="bloodstatus"
+          value=""
+          placeholder="Full-blood? Half-blood? Or..no.. it couldn't be.. Muggle-born??!!..."
+          class="input-text"
+        />
+        <br />
+        <input class="input-boxes"
           type="text"
           name="image"
           value=""
-          placeholder="Enter a wizard's image URL..."
+          placeholder="Enter your wizard's image URL..."
           class="input-text"
         />        
         <br />
-        <input
+        <input class="input-boxes"
         type="text"
         name="patronus"
         value=""
-        placeholder="Enter a wizard's patronus..."
+        placeholder="Enter your wizard's patronus..."
         class="input-text"
         />
         <br />
-        <input
+        <input class="input-boxes"
         type="text"
         name="wand"
         value=""
@@ -71,19 +88,25 @@
         class="input-text"
         />
         <br />
-        <input
+        <input class="input-boxes"
           type="submit"
           name="submit"
-          value="Create Wizard"
+          value="★Create Wizard★"
           class="submit"
         />
       </form>
     </div>
     <p style="text-align:center">
-    <button id="new-wizard-btn">Add a new wizard</button>
+    <button id="new-wizard-btn" class="glow-on-hover" type="button">Add a new wizard</button>
+    <br>
+    <br>
     </p>
     <div id="wiz-collection"></div>
-    
+    <br>
+    <br>
+    <div id="dobby">
+    <img src="images/sock.png">
+    </div>
     <script defer type="text/javascript" src="index.js"></script>
   </body>
   </html>
