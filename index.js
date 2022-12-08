@@ -62,7 +62,7 @@ const displayWizard = (wizardObj) => {
     wizName.innerText = wizardObj.name
     wizImg.src = wizardObj.image
     wizImg.alt = wizardObj.name
-    wizImg.classList.add("toy-avatar")
+    wizImg.classList.add("wiz-avatar")
     wizBlood.innerText = `Blood status: ${wizardObj.bloodstatus}`
     patronus.innerText = `Patronus: ${wizardObj.patronus}`
     wand.innerText = `Wand materials: ${wizardObj.wand}`
@@ -93,7 +93,7 @@ const displayDobby = () => {
     dobbyDiv.classList.add("card")
     const name  = document.createElement("h2")
     const image = document.createElement("img")
-    image.classList.add("toy-avatar")
+    image.classList.add("wiz-avatar")
     const info = document.createElement("p")
     
     name.textContent = "Dobby the house elf"
@@ -112,10 +112,7 @@ displayDobby()
 const fetchData = () => {
     fetch("http://localhost:3000/wizardingWorld")
     .then(response => response.json())
-    .then(data => {
-        console.log(data)
-        data.forEach(displayWizard)
-    })
+    .then(data => data.forEach(displayWizard))
 }
 
 secretImg.addEventListener("mouseover", onMouseOver)
