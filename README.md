@@ -4,7 +4,7 @@ Wizarding World of Flatiron is a single-page javaScript application that allows 
 
 ![This is an image of the website!](images/web-snippet.JPG)
 
-# Installation & Usage:
+# Installation & Usage
 
 Ensure that you have JavaScript installed properly
 Begin by Cloning the repository into your local terminal
