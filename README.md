@@ -2,7 +2,7 @@
 
 Wizarding World of Flatiron is a single-page javaScript application that allows you to view the magical characters from the Harry Potter franchise. It provides the user with the ability to create their own characters and add them to the web page, as well as partake in a simple hide and seek mini-game.
 
-![This is an image of the website!](vscode-remote://wsl%2Bubuntu/home/genevievesuder/Development/code/Projects/phase-1-project/images/website%20snippet.JPG)
+![This is an image of the website!](images/web-snippet.JPG)
 
 # Installation & Usage:
 
@@ -32,6 +32,7 @@ Upon entering the web browser you may:
 
 * Once you click the "Add a new wizard" button, you will be able to scroll down and view your wizard appended to the card library below. 
 
+![This is an image of thw wizard form!](images/form-img.JPG)
 
 ## Mini-game:
 
