@@ -32,7 +32,7 @@ Upon entering the web browser you may:
 
 * Once you click the "Add a new wizard" button, you will be able to scroll down and view your wizard appended to the card library below. 
 
-![This is an image of thw wizard form!](images/form-img.JPG)
+![This is an image of the wizard form!](images/form-img.JPG)
 
 ## Mini-game:
 
