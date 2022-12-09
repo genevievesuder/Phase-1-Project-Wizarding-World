@@ -97,7 +97,7 @@ const displayDobby = () => {
     const info = document.createElement("p")
     
     name.textContent = "Dobby the house elf"
-    image.src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dexddp1-1bf42268-3166-47e0-a1fd-87a5ed782282.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkYmMxOTM1LTY1NDItNGVlMy04MjJmLTEzNWNmZjRiYTYyY1wvZGV4ZGRwMS0xYmY0MjI2OC0zMTY2LTQ3ZTAtYTFmZC04N2E1ZWQ3ODIyODIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QRNpPEmhuOK8Dvx2SrEuI0NO9EPswSsFpPcJMMNaz2c"
+    image.src = "images/dobby.png"
     image.alt = "Dobby the house elf"
     info.textContent = "Please help me! Do you know how to free a house elf?"
     
