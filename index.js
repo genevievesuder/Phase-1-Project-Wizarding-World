@@ -49,20 +49,24 @@ const displayWizard = (wizardObj) => {
     const wizName = document.createElement("h2")
     const wizImg = document.createElement("img")
     const wizInfo = document.createElement("div")
+    const wizHouse = document.createElement("p")
     const wizBlood = document.createElement("p")
     const patronus = document.createElement("p")
     const wand = document.createElement("p")
     
     wizDiv.classList.add("card")
+    wizName.classList.add("name")
     wizName.innerText = wizardObj.name
     wizImg.src = wizardObj.image
     wizImg.alt = wizardObj.name
     wizImg.classList.add("wiz-avatar")
+    wizHouse.classList.add("house")
+    wizHouse.innerText = wizardObj.house
     wizBlood.innerText = `Blood status: ${wizardObj.bloodstatus}`
     patronus.innerText = `Patronus: ${wizardObj.patronus}`
     wand.innerText = `Wand materials: ${wizardObj.wand}`
 
-    wizInfo.append(wizBlood, patronus)
+    wizInfo.append(wizHouse, wizBlood, patronus)
     wizDiv.append(wizName, wizImg, wizInfo, wand)
     wizCollection.appendChild(wizDiv)
 }
