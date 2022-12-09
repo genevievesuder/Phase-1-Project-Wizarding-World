@@ -15,6 +15,10 @@ formOnload()
 
 const addBtn = document.querySelector("#new-wizard-btn")
 const wizFormContainer = document.querySelector(".container");
+const wizCollection = document.querySelector("#wiz-collection");
+const form = document.querySelector("#form")
+const card = document.getElementsByClassName("card");
+const header = document.querySelector("body > header > h1")
     
 addBtn.addEventListener('click', () => {
         //hide and seek w the form
@@ -25,7 +29,6 @@ addBtn.addEventListener('click', () => {
         wizForm.style.display = 'none';
         }
     });
-
 
     const handleWizSubmit = (event) => {
         event.preventDefault();
@@ -41,14 +44,7 @@ addBtn.addEventListener('click', () => {
 
 wizForm.addEventListener("submit", handleWizSubmit)
 
-const wizCollection = document.querySelector("#wiz-collection");
-const form = document.querySelector("#form")
-const card = document.getElementsByClassName("card");
-const header = document.querySelector("body > header > h1")
-
-
 const displayWizard = (wizardObj) => {
-    //dom elements for ea card
     const wizDiv = document.createElement("div")
     const wizName = document.createElement("h2")
     const wizImg = document.createElement("img")
@@ -57,7 +53,6 @@ const displayWizard = (wizardObj) => {
     const patronus = document.createElement("p")
     const wand = document.createElement("p")
     
-    // assign properties to the elements
     wizDiv.classList.add("card")
     wizName.innerText = wizardObj.name
     wizImg.src = wizardObj.image
@@ -67,9 +62,6 @@ const displayWizard = (wizardObj) => {
     patronus.innerText = `Patronus: ${wizardObj.patronus}`
     wand.innerText = `Wand materials: ${wizardObj.wand}`
 
-    //for each secondary nested obj.. MATTEO SHOWED ME THIS
-    // wizardObj.wand.forEach(wandObj=>wand.innerText+=`Wand details: ${wandObj.details}`)
-    //append
     wizInfo.append(wizBlood, patronus)
     wizDiv.append(wizName, wizImg, wizInfo, wand)
     wizCollection.appendChild(wizDiv)
@@ -79,14 +71,14 @@ const onMouseOver = () => {
     alert("Dobby is now a free elf! Thank you so much for saving me!")
 }
    
-    const dobbyClick = () => {
-        const dobby = document.querySelector("#dobby")
-        if (dobby.style.display === "none") {
-          dobby.style.display = "block";
-        } else {
-          dobby.style.display = "none";
-        }
-      }
+const dobbyClick = () => {
+    const dobby = document.querySelector("#dobby")
+    if (dobby.style.display === "none"){
+    dobby.style.display = "block";
+    } else {
+    dobby.style.display = "none";
+    }
+}
 
 const displayDobby = () => {
     const dobbyDiv = document.createElement("div")
