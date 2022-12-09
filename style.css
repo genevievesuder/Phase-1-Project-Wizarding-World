@@ -11,6 +11,24 @@ body {
   color: white
 }
 
+.input-button {
+  width: 40%;
+  padding: 12px 15px;
+  margin: 8px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: rgb(148, 0, 161);
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.input-button:hover {
+  transform: scale(1.2);
+  background-color: purple;
+  color: rgb(255, 255, 255);
+}
+
 .wiz-collection {
   display: flex;
 }
@@ -116,3 +134,5 @@ body {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;} /* End https://www.cursors-4u.com */
