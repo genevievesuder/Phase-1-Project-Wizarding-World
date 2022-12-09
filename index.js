@@ -33,6 +33,7 @@ const handleWizSubmit = (event) => {
     wizObj.name = event.target.name.value;
     wizObj.bloodstatus = event.target.bloodstatus.value;
     wizObj.image = event.target.image.value;
+    wizObj.house = event.target.house.value;
     wizObj.patronus = event.target.patronus.value;
     wizObj.wand = event.target.wand.value;
     displayWizard(wizObj)
