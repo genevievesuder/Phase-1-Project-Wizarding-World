@@ -1,10 +1,15 @@
-let addWiz = false;
+const addBtn = document.querySelector("#new-wizard-btn")
+const wizFormContainer = document.querySelector(".container");
+const wizCollection = document.querySelector("#wiz-collection");
+const form = document.querySelector("#form")
+const card = document.getElementsByClassName("card");
+const header = document.querySelector("body > header > h1")
 const wizForm = document.querySelector(".add-wizard-form")
 const secretImg = document.querySelector("#dobby > img")
 
 sockOnload = () => {
     document.querySelector("#dobby").style.display = 'none';
-  };
+};
 sockOnload()
 
 formOnload = () => {
@@ -12,34 +17,26 @@ formOnload = () => {
 };
 formOnload()
 
-
-const addBtn = document.querySelector("#new-wizard-btn")
-const wizFormContainer = document.querySelector(".container");
-const wizCollection = document.querySelector("#wiz-collection");
-const form = document.querySelector("#form")
-const card = document.getElementsByClassName("card");
-const header = document.querySelector("body > header > h1")
-    
+let addWiz = false;
 addBtn.addEventListener('click', () => {
-        //hide and seek w the form
-        addWiz = !addWiz;
-        if (addWiz) {
-            wizForm.style.display = 'block';
-        } else {
+    addWiz = !addWiz;
+    if (addWiz) {
+        wizForm.style.display = 'block';
+    } else {
         wizForm.style.display = 'none';
         }
     });
 
-    const handleWizSubmit = (event) => {
-        event.preventDefault();
-        wizObj = {}
-        wizObj.name = event.target.name.value;
-        wizObj.bloodstatus = event.target.bloodstatus.value;
-        wizObj.image = event.target.image.value;
-        wizObj.patronus = event.target.patronus.value;
-        wizObj.wand = event.target.wand.value;
-        displayWizard(wizObj)
-        event.target.reset()
+const handleWizSubmit = (event) => {
+    event.preventDefault();
+    wizObj = {}
+    wizObj.name = event.target.name.value;
+    wizObj.bloodstatus = event.target.bloodstatus.value;
+    wizObj.image = event.target.image.value;
+    wizObj.patronus = event.target.patronus.value;
+    wizObj.wand = event.target.wand.value;
+    displayWizard(wizObj)
+    event.target.reset()
     }
 
 wizForm.addEventListener("submit", handleWizSubmit)
@@ -48,7 +45,6 @@ const displayWizard = (wizardObj) => {
     const wizDiv = document.createElement("div")
     const wizName = document.createElement("h2")
     const wizImg = document.createElement("img")
-    const wizInfo = document.createElement("div")
     const wizHouse = document.createElement("p")
     const wizBlood = document.createElement("p")
     const patronus = document.createElement("p")
@@ -66,8 +62,7 @@ const displayWizard = (wizardObj) => {
     patronus.innerText = `Patronus: ${wizardObj.patronus}`
     wand.innerText = `Wand materials: ${wizardObj.wand}`
 
-    wizInfo.append(wizHouse, wizBlood, patronus)
-    wizDiv.append(wizName, wizImg, wizInfo, wand)
+    wizDiv.append(wizName, wizImg, wizHouse, wizBlood, patronus, wand)
     wizCollection.appendChild(wizDiv)
 }
 

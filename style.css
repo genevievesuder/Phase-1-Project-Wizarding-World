@@ -33,6 +33,10 @@ body {
   display: flex;
 }
 
+.facts {
+  color:rgb(255, 255, 255)
+}
+
 .name {
   font-size: 40px;
 }

@@ -7,7 +7,8 @@
         "bloodstatus": "Half-Blood",
         "patronus": "Stag",
         "image": "https://static.wikia.nocookie.net/dbxfanon/images/4/45/Harry-Potter-Transparent.png/revision/latest?cb=20160614014724",
-        "wand": "11 inch, Holly, phoenix feather" 
+        "wand": "11 inch, Holly, phoenix feather",
+        "wizFact": "Harry is a half-blood and one of the most famous wizards in modern times. He was the only known survivor of the Killing Curse, having Lord Voldemort attempt to murder him when he was an infant, which led to Voldemort’s first defeat and the end of the First Wizarding War. At the age of eleven, Harry learned that he was a wizard, began attending Hogwarts and was sorted into Gryffindor house."
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@
         "bloodstatus": "Muggle-born",
         "patronus": "Otter",
         "image": "https://i.pinimg.com/originals/84/95/4d/84954d469c213cb8bf854939c7aaa9e3.png",
-        "wand": "10 inch, vine wood, dragon heartstring"
+        "wand": "10 inch, vine wood, dragon heartstring core",
+        "wizFact": ""
       },
       {
         "id": 3,
@@ -25,7 +27,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "Jack Russell Terrier",
         "image": "https://64.media.tumblr.com/d3a62c3b243849344f4ab4ca6c57d976/tumblr_ozqrj1R6an1rxkqbso1_400.png",
-        "wand": "12 inch, Ash, unicorn tail hair"
+        "wand": "12 inch, Ash, unicorn tail hair core",
+        "wizFact": ""
       },
       {
         "id": 4,
@@ -34,7 +37,8 @@
         "bloodstatus": "Half-Blood",
         "patronus": "Phoenix",
         "image": "https://www.pngkit.com/png/full/243-2435778_dumbledore-harry-potter.png",
-        "wand": "15 inch, Elder, Thestral tail hair core" 
+        "wand": "15 inch, Elder, Thestral tail hair core",
+        "wizFact": ""
       },
       {
         "id": 5,
@@ -43,7 +47,8 @@
         "bloodstatus": "Half-Blood",
         "patronus": "Doe",
         "image": "https://www.pikpng.com/pngl/b/569-5691225_severussnape-severus-snape-professorsnape-professor-severus-snape-clipart.png",
-        "wand": "Unknown length, wood, and core"  
+        "wand": "Unknown length, wood, and core",
+        "wizFact": ""
       },
       {
         "id": 6,
@@ -52,7 +57,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "Non-corporeal",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dey40ci-7414145b-85e9-48cc-ac2b-5e5853c0ac0a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkYmMxOTM1LTY1NDItNGVlMy04MjJmLTEzNWNmZjRiYTYyY1wvZGV5NDBjaS03NDE0MTQ1Yi04NWU5LTQ4Y2MtYWMyYi01ZTU4NTNjMGFjMGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1e6f9Ld9vU7MHvedndI4WiorbietzV6kBWFVrls9DDA",
-        "wand": "Unknown length, Cherry wood, unicorn hair"
+        "wand": "Unknown length, Cherry wood, unicorn hair core",
+        "wizFact": ""
       },
       {
         "id": 7,
@@ -61,7 +67,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "Hare",
         "image": "https://cdn130.picsart.com/337255283009211.png",
-        "wand": "Unknown"
+        "wand": "Unknown",
+        "wizFact": ""
       },
       {
         "id": 8,
@@ -70,7 +77,8 @@
         "bloodstatus": "Half-blood",
         "patronus": "Cat",
         "image": "https://64.media.tumblr.com/c4f96f7c9e00027f913efed3dde7a8c6/tumblr_of94k7p9yP1rxkqbso1_400.png",
-        "wand": "9 and 1/2 inch, Fir, dragon heartstring"
+        "wand": "9 and 1/2 inch, Fir, dragon heartstring core",
+        "wizFact": ""
       },
       {
         "id": 9,
@@ -79,7 +87,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "Non-corporeal",
         "image": "https://i.pinimg.com/originals/f5/cc/b1/f5ccb1d77902127416fb44828b1e6357.png",
-        "wand": "Unknown"
+        "wand": "Unknown",
+        "wizFact": ""
       },
       {
         "id": 10,
@@ -88,7 +97,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "None",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c62c2fa-f93c-4eb3-be2a-21a0e5af6107/d6q4mae-e1cc2878-d564-4976-bce5-cf568a1c9433.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjNjJjMmZhLWY5M2MtNGViMy1iZTJhLTIxYTBlNWFmNjEwN1wvZDZxNG1hZS1lMWNjMjg3OC1kNTY0LTQ5NzYtYmNlNS1jZjU2OGExYzk0MzMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lzFYKa2O2yItNzo6VNDDKc2Qlq2hqzOFGLMCZZNxUCo",
-        "wand": "12 and 3/4 inch, Walnut, dragon heartstring"
+        "wand": "12 and 3/4 inch, Walnut, dragon heartstring core",
+        "wizFact": ""
       },
       {
         "id": 11,
@@ -97,7 +107,8 @@
         "bloodstatus": "Half-Blood",
         "patronus": "None",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77a638c2-9d34-4f8d-9aef-edb8d196b304/d6g9z2c-55fdd6a4-d89d-4a59-891b-897441caa9b4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3YTYzOGMyLTlkMzQtNGY4ZC05YWVmLWVkYjhkMTk2YjMwNFwvZDZnOXoyYy01NWZkZDZhNC1kODlkLTRhNTktODkxYi04OTc0NDFjYWE5YjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jWMjIamO_60qJKZ1xWKFO8BG1pLFWpyCA3Kg3vHip0s",
-        "wand":"13 and 1/2 inch, Yew, phoenix feather core"
+        "wand":"13 and 1/2 inch, Yew, phoenix feather core",
+        "wizQuote": "I don't go looking for trouble. Trouble usually finds me."
       },
       {
         "id": 12,
@@ -106,7 +117,8 @@
         "bloodstatus": "Half-human/half-giant",
         "patronus": "None",
         "image": "https://static.wikia.nocookie.net/vsbattles/images/6/68/L_hagrid01_caph_hpe3.png/revision/latest?cb=20180110201558",
-        "wand": "16 inch, oak, unknown core"
+        "wand": "16 inch, oak, unknown core",
+        "wizFact": ""
       },
       {
         "id": 13,
@@ -115,7 +127,8 @@
         "bloodstatus": "Pure-blood",
         "patronus": "None",
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0eb01100-32b1-4d03-98ba-ac720e2b3b65/d8wfx4u-c855013f-623a-452d-9967-b831ac5d216a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlYjAxMTAwLTMyYjEtNGQwMy05OGJhLWFjNzIwZTJiM2I2NVwvZDh3Zng0dS1jODU1MDEzZi02MjNhLTQ1MmQtOTk2Ny1iODMxYWM1ZDIxNmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tfBYc00BkAdKpdkr_4UDpZXvaRbZdSvOU1ecXt_2XUY",
-        "wand":"10 inch, Hawthorn, unicorn hair"
+        "wand":"10 inch, Hawthorn, unicorn hair core",
+        "wizFact": ""
       }
     ]
   }
