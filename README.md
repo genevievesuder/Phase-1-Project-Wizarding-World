@@ -34,7 +34,7 @@ Upon entering the web browser you may:
 
 ![This is an image of the wizard form!](images/form-img.JPG)
 
-## Mini-game:
+## Mini-game
 
 Dobby the House Elf is asking you to help guide him to freedom! Explore the page to find a way to help him.
 Spoilers below...
@@ -43,7 +43,7 @@ Spoilers below...
 
 
 
-### Mini-game Solution:
+### Mini-game Solution
 Once the image of Dobby is clicked, a new image of a sock will appear at the bottom left of the web page. Hover over the sock to be alerted on the status of Dobby's freedom!
 
 
